@@ -12,3 +12,7 @@ func Hello(name string) string {
 func Bye(name string) string {
 	return fmt.Sprintf("Good bye %s.", name)
 }
+
+func Shout(name string) string {
+	return fmt.Sprintf("%s shouted!", name)
+}
